@@ -42,21 +42,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="50dp"
-                android:text="NIM"
+                android:text="Username"
                 android:textSize="18sp"
                 android:fontFamily="@font/poppins_bold"
                 android:layout_gravity="start"
-                android:labelFor="@id/nimEditText"/>
+                android:labelFor="@id/usernameEditText"/>
 
             <EditText
-                android:id="@+id/nimEditText"
+                android:id="@+id/usernameEditText"
                 android:layout_width="240dp"
                 android:layout_height="48dp"
                 android:padding="10dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/edit_text_border"
                 android:layout_marginBottom="20dp"
-                android:hint="NIM"
+                android:hint="Username"
                 android:fontFamily="@font/poppins_regular"
                 android:drawableStart="@drawable/baseline_person_24"
                 android:drawablePadding="10dp"/>
